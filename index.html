@@ -42,7 +42,22 @@
       border-radius: 8px;
       border: 2px solid #ddd;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      margin: 20px 0;
+      margin: 15px 0 10px 0;
+    }
+    .download-btn {
+      display: inline-block;
+      background-color: #1b4d3e;
+      color: #ffffff;
+      padding: 10px 25px;
+      font-size: 15px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #14382c;
     }
     .section-box {
       background: #fafbfc;
@@ -77,8 +92,14 @@
     <h1>شجرة قبيلة العتايقة</h1>
     <div class="subtitle">شجرة العتايقة من فخذ الحساونة من رفاعة من جهينة</div>
 
-    <!-- تأكدي أن اسم الصورة مطابق لما هو مرفوع لديكِ -->
-    <img src="alataiqa-family-tree.JPG" alt="شجرة قبيلة العتايقة من الحساونة من رفاعة من جهينة من قضاعة" class="tree-img">
+    <!-- عرض الصورة وتفعيل فتحها بحجم كامل -->
+    <a href="alataiqa-family-tree.JPG" target="_blank">
+      <img src="alataiqa-family-tree.JPG" alt="شجرة قبيلة العتايقة من الحساونة من رفاعة من جهينة من قضاعة" class="tree-img" title="اضغط لمشاهدة الصورة بالحجم الكامل">
+    </a>
+    
+    <br>
+    <!-- زر تحميل مباشر للصورة -->
+    <a href="alataiqa-family-tree.JPG" class="download-btn" download>📥 تحميل صورة الشجرة بجودة عالية</a>
 
     <div class="section-box">
       <h2>نسب العتايقة</h2>
